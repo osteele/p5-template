@@ -9,14 +9,6 @@ are defined in the sketch, must be prefixed by `export` in order to be visible
 to p5.js. For example, `export function setup()` and `export function draw()` in
 the starter code.
 
-## History
-
-It was first used for the [p5.js particle
-workshop](https://www.notion.so/P5-js-Particle-Workshop-aba7992a689c457a8cca10e2f49e6a04)
-in the Fall 2019 Movement Practices course.
-
-Follow the instructions on that page for use.
-
 ## License
 
 MIT
