@@ -14,6 +14,9 @@ code editor running on your computer, for local development of p5.js projects.
 4. In a code editor, open the folder.
 5. Start editing! The p5.js code is in `sketch.js`.
 
+More detailed instructions on how to use this with Visual Studio Code are
+[here](https://notes.osteele.com/tools/vscode/p5js).
+
 ## License
 
 MIT
