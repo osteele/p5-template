@@ -1,21 +1,37 @@
-# p5.js template
+# p5.js Particle Workshop
 
-[p5.js](https://p5js.org) is a JavaScript library for creative coding.
+This sketchbook introduces JavaScript and p5.js through a sequence of particle
+animations. Open the folder in VS Code with **p5.js Sketchbook & Live Preview**,
+then select each numbered JavaScript file in the Sketch Explorer.
 
-This project is a “starter kit” for using Visual Studio Code, Atom, or another
-code editor running on your computer, for local development of p5.js projects.
+The sequence practices variables, functions, objects, iteration, arrays,
+randomness, and interactive animation. Each numbered file is a complete sketch.
+The original `sketch.js` remains available as a small starting point for your
+own changes.
 
-## Instructions
+## Open from the workshop website
 
-1. On <https://github.com/osteele/p5-template>, click Code, and then Download
-   Zip
-2. If necessary, unzip the zip file. (Your computer may do this automatically.)
-3. Rename the folder "p5-template" to your project name.
-4. In a code editor, open the folder.
-5. Start editing! The p5.js code is in `sketch.js`.
+The [workshop notes](https://notes.osteele.com/courses/movement-practices-class/p5js-particle-workshop/)
+include an **Open in p5.js Sketchbook** link. The extension creates a local,
+editable copy and asks for confirmation before opening it.
 
-More detailed instructions on how to use this with Visual Studio Code are
-[here](https://notes.osteele.com/tools/vscode/p5js).
+You can also clone this repository and open its folder in VS Code:
+
+```sh
+git clone https://github.com/osteele/p5-particle-workshop.git
+```
+
+## Sequence
+
+1. `01-follow-the-mouse.js` draws one particle at the pointer.
+2. `02-particle-object.js` stores position and size in an object.
+3. `03-many-particles.js` uses an array and `forEach`.
+4. `04-particle-grid.js` creates a grid with `map`, division, and remainder.
+5. `05-random-motion.js` gives each particle an independent velocity.
+6. `06-particle-system.js` emits, updates, and removes particles.
+
+Duplicate a numbered sketch before changing it if you want to preserve the
+reference version.
 
 ## License
 

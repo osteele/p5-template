@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/osteele/vscode-p5server/main/schemas/p5-sketchbook.schema.json",
+  "format": "p5-sketchbook",
+  "version": 1,
+  "title": "p5.js Particle Workshop",
+  "description": "Learn JavaScript and p5.js by progressing from one circle to an interactive particle system.",
+  "entry": "01-follow-the-mouse.js",
+  "source": {
+    "type": "git",
+    "url": "https://github.com/osteele/p5-particle-workshop.git",
+    "ref": "main"
+  },
+  "sketches": [
+    { "path": "01-follow-the-mouse.js", "title": "Follow the Mouse" },
+    { "path": "02-particle-object.js", "title": "A Particle Object" },
+    { "path": "03-many-particles.js", "title": "Many Particles" },
+    { "path": "04-particle-grid.js", "title": "A Particle Grid" },
+    { "path": "05-random-motion.js", "title": "Random Motion" },
+    { "path": "06-particle-system.js", "title": "A Particle System" }
+  ]
+}
